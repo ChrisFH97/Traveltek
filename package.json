@@ -1,0 +1,19 @@
+{
+  "name": "traveltek",
+  "version": "1.0.0",
+  "description": "Programming challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHAIG200/Traveltek.git"
+  },
+  "author": "CHAIG200",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CHAIG200/Traveltek/issues"
+  },
+  "homepage": "https://github.com/CHAIG200/Traveltek#readme"
+}
