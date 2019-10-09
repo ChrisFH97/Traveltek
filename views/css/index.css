@@ -1,0 +1,13 @@
+html,body{
+    margin: 0;
+    padding:0;
+    background:#259bff;
+}
+
+
+.container {
+    max-width: 93.5rem;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0 2rem;
+}
