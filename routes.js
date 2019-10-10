@@ -24,10 +24,13 @@ module.exports = function(app){
     */
       app.get("/Flight/", (req, res) => {
        var resp = `<h2>Available Routes</h2><a href="/Flight/all/"> Get All Records</a><br>`;
-        for (var i = 0, len = headers.length; i < len; i++) {
-            resp = resp + `<a href="/Flight/${headers[i]}"> Get via ${headers[i]}</a><br>`;
-           
-        }
+
+        // //////////////////////////Uncomment this code if you wish to unlock all REST API endpoints///////////////////////////////////
+        // for (var i = 0, len = headers.length; i < len; i++) {
+        //     resp = resp + `<a href="/Flight/${headers[i]}"> Get via ${headers[i]}</a><br>`;
+          
+        // }
+        // /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         res.send(resp)
     });
 
@@ -65,24 +68,9 @@ function getRecord(header,data,res){
             records.push(row);
         }
         
-      
 
-    }).on('end', () => {
-        //Checks if there is any segments with a flight with that id.
-        if(header == "id"){
-            fs.createReadStream('./flighdataSegments.csv').pipe(csv()).on('data', (row) => {
 
-                //If the data matches it will add it to the record array.
-           
-                if(row["flightid"] == data){
-                    records.push(row);
-                }
-               
-              
-        
-            }).on('end', () => {res.send(JSON.stringify(records, null, 3));});
-        }
-
-    });
+    }).on('end', () => {});
+    header == null ? fs.createReadStream('./flighdataSegments.csv').pipe(csv()).on('data', (row) => {records.push(row);}).on('end', () => {res.send(JSON.stringify(records, null, 3));}) : (function(){});
     
 }
