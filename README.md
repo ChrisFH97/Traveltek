@@ -21,12 +21,14 @@ Most stops, Early Fliers, Flight's per day, Popular Destenations and Popular Car
 
 ## Most stops
 Most stops displays the flight id with the most amount of stops between the departure airport and arrival airport.
+
 It should look something like this:
 
 <img src="https://i.imgur.com/RU4zpgs.png"></img>
 
 ## Early Fliers
 Early Fliers displays the amount of flights that departed from there airport before 12AM
+
 It should look something like this:
 
 <img src="https://i.imgur.com/RRd43sx.png"></img>
@@ -34,6 +36,7 @@ It should look something like this:
 ## Flights per day
 ** With more time a graph of somesort would have been implemented**
 Flights per day displays all of the dates that flights deperated on and the amount of flights that happened that day
+
 It should look something like this:
 
 <img src="https://i.imgur.com/PtQVoxa.png"></img>
@@ -41,12 +44,14 @@ More dates will appear the more you scroll down.
 
 ## Popular Destination
 Popular Destination displays the most popluar destination during the recorded time.
+
 It should look something like this:
 
 <img src="https://i.imgur.com/iwFP2sa.png"></img>
 
 ## Popular Carrier
 Popular Carrier displays the most popluar carrier during the recorded time.
+
 It should look something like this:
 
 <img src="https://i.imgur.com/xpFxCrk.png"></img>
