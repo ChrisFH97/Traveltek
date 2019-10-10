@@ -52,4 +52,4 @@ It should look something like this:
 <img src="https://i.imgur.com/xpFxCrk.png"></img>
 
 ## Notice
-** This project had to be undertaken at very short notice due to my webhost going down for emergency downtime resulting in me loosing access to my email. **
+This project had to be undertaken at very short notice due to my webhost going down for emergency downtime resulting in me loosing access to my email.
