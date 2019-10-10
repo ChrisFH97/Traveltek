@@ -48,7 +48,7 @@ function stops() {
         }
 
        //Displays the card with the appropriate data.
-       displayCard(`Flight that had the most stops`,`Test`,`The flight with the id of  ${fid} fid had ${stops} stops.`);
+       displayCard(`Flight that had the most stops`,`Most stops`,`The flight with the id of  ${fid} fid had ${stops} stops.`);
        xhr.abort()
     }
     });
